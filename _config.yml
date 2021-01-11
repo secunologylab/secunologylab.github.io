@@ -1,0 +1,23 @@
+title: SecunologyLab
+email: admin@secunologylab.com
+description: SecunologyLab Blog
+baseurl: ""
+url: "http://blog.secunologylab.com"
+corp: "https://secunologylab.com/"
+logo: "logo.svg"
+
+paginate: 4
+comments: false
+paginate_path: "/page/:num"
+
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+# Build settings
+markdown  : kramdown
+permalink : /:title/
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
